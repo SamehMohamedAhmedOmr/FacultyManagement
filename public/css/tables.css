@@ -1,0 +1,33 @@
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting:after{
+    font-family: "Font Awesome 5 Free";
+}
+
+table.dataTable thead th:nth-of-type(3):after,
+table.dataTable thead th:nth-of-type(4):after{
+    content:'';
+}
+
+@media screen and (max-width: 767px){
+    table {
+        border: none;
+    }
+}
+
+div.panel-heading{
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+table i{
+    cursor: pointer;
+}
+
+table i.fa-edit{
+    color: #116d11;
+}
+
+table i.fa-trash{
+    color: #dc3030;
+}
